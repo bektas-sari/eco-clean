@@ -1,4 +1,4 @@
-# EcoClean - Endüstriyel Temizlik ve Bakım Kimyasalları
+# EcoClean - Endüstriyel Temizlik ve Bakım Kimyasalları (Statik Web Sitesi - DeepSeek Ai coder uygulaması ile oluşturulmuştur)
 
 Bu proje, endüstriyel temizlik ve bakım kimyasalları alanında çevre dostu ve yenilikçi çözümler sunan bir web sitesidir.
 
