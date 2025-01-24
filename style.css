@@ -1,0 +1,371 @@
+/* Temel stiller */
+:root {
+    --primary-color: #00a86b;
+    --secondary-color: #008080;
+    --accent-color: #ffd700;
+    --text-color: #333;
+    --bg-color: #f4f4f4;
+    --white: #ffffff;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+  }
+  
+  /* Header stili */
+  header {
+    background: var(--primary-color);
+    color: var(--white);
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-links li {
+    padding: 0 15px;
+  }
+  
+  .nav-links a {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: var(--accent-color);
+  }
+  
+  /* Hero bölümü */
+  .hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("https://images.unsplash.com/photo-1613665813446-82a78c468a1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80")
+      no-repeat center center / cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: var(--white);
+  }
+  
+  .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background: var(--accent-color);
+    color: var(--text-color);
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background: #e6c200;
+  }
+  
+  /* Ana içerik stili */
+  main {
+    padding-top: 80px; /* Header'ın yüksekliği kadar padding */
+  }
+  
+  section {
+    padding: 60px 0;
+  }
+  
+  h2 {
+    color: var(--secondary-color);
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  
+  /* Hakkımızda bölümü */
+  .about-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .about-text,
+  .about-image {
+    flex: 1;
+  }
+  
+  .about-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Ürünler bölümü */
+  .urun-listesi {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .urun {
+    width: calc(33.33% - 20px);
+    margin-bottom: 40px;
+    background: var(--white);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .urun:hover {
+    transform: translateY(-5px);
+  }
+  
+  .urun img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .urun h3 {
+    padding: 20px;
+    color: var(--secondary-color);
+  }
+  
+  .urun p {
+    padding: 0 20px 20px;
+  }
+  
+  /* Hizmetler bölümü */
+  .hizmet-listesi {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .hizmet {
+    width: calc(25% - 20px);
+    margin-bottom: 40px;
+    text-align: center;
+    padding: 20px;
+    background: var(--white);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .hizmet:hover {
+    transform: translateY(-5px);
+  }
+  
+  .hizmet i {
+    font-size: 3rem;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+  }
+  
+  /* İletişim bölümü */
+  .iletisim-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  
+  form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input,
+  textarea,
+  button {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: var(--primary-color);
+    color: var(--white);
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: var(--secondary-color);
+  }
+  
+  .iletisim-bilgileri {
+    flex: 1;
+  }
+  
+  .iletisim-bilgileri h3 {
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+  }
+  
+  .iletisim-bilgileri p {
+    margin-bottom: 10px;
+  }
+  
+  .iletisim-bilgileri i {
+    color: var(--primary-color);
+    margin-right: 10px;
+  }
+  
+  /* Footer stili */
+  footer {
+    background: var(--secondary-color);
+    color: var(--white);
+    padding: 40px 0 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+  }
+  
+  .footer-section h3 {
+    margin-bottom: 20px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    color: var(--white);
+    text-decoration: none;
+  }
+  
+  .social-icons a {
+    color: var(--white);
+    margin-right: 15px;
+    font-size: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: var(--accent-color);
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Responsive tasarım */
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+    }
+  
+    .burger {
+      display: block;
+    }
+  
+    .about-content,
+    .iletisim-content {
+      flex-direction: column;
+    }
+  
+    .urun,
+    .hizmet {
+      width: 100%;
+    }
+  
+    .footer-section {
+      width: 100%;
+    }
+  }
+  
+  /* Burger menü */
+  .burger {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .burger div {
+    width: 25px;
+    height: 3px;
+    background-color: var(--white);
+    margin: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Animasyonlar */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fade-in {
+    animation: fadeIn 1s ease-in;
+  }
+  
+  
