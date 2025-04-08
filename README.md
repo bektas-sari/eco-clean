@@ -14,19 +14,15 @@ EcoClean, çevre dostu, yenilikçi ve etkili temizlik çözümleri sunmak üzere
 
 🔹 Tek Sayfa Scroll & Smooth Scroll Navigasyonu
 
-## Kullanım
+🧹 Proje Özellikleri
 
-Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları takip edebilirsiniz:
+🔹 Modern ve Duyarlı Tasarım (HTML5, CSS3, JavaScript)
 
-git clone https://github.com/bektas-sari/ecoclean.git
-cd ecoclean
-open index.html
+🔹 Mobil Uyumluluk ve Etkileşimli Navigasyon
 
+🔹 Çevre Dostu Ürün Sunumu
 
-## Lisans
+🔹 Hizmet Tanıtımı ve İletişim Formu
 
-Bu proje, açık kaynak kodlu bir şekilde MIT Lisansı altında lisanslanmıştır. Bu lisans, aşağıdaki şartlar dahilinde kullanım, dağıtım ve değiştirme hakkı tanır:
+🔹 Tek Sayfa Scroll & Smooth Scroll Navigasyonu
 
-Kısıtlama yoktur: Kişisel veya ticari projelerde kullanılabilir.
-Sorumluluk reddi: Yazılım herhangi bir garanti olmaksızın sağlanmaktadır.
-Atıf: Kaynak proje belirtilmelidir.
