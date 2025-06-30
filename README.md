@@ -1,6 +1,7 @@
 # 🌿 EcoClean | Endüstriyel Temizlik ve Bakım Kimyasalları
 
-**EcoClean**, çevre dostu, yenilikçi ve etkili temizlik çözümleri sunmak üzere geliştirilmiş bir web sitesi projesidir. Bu statik site, modern tasarımı ve kullanıcı dostu arayüzü ile endüstriyel temizlik ve bakım ürünlerini tanıtmayı amaçlamaktadır.
+**EcoClean**, çevre dostu, yenilikçi ve etkili temizlik çözümleri sunmak üzere geliştirilmiş bir web sitesi projesidir. 
+Bu statik site, modern tasarımı ve kullanıcı dostu arayüzü ile endüstriyel temizlik ve bakım ürünlerini tanıtmayı amaçlamaktadır.
 
 ---
 
@@ -46,6 +47,17 @@ open index.html # veya tarayıcınızda index.html dosyasını açın
 - **Hizmetler:** Danışmanlık, teknik destek, ürün eğitimi.
 - **İletişim:** Form alanı ve firma iletişim bilgileri.
 
+---
+
+## 👤 Developer
+
+**Bektas Sari**  
+
+Email: bektas.sari@gmail.com  <br>
+GitHub: https://github.com/bektas-sari <br>
+LinkedIn: www.linkedin.com/in/bektas-sari <br>
+Researchgate: https://www.researchgate.net/profile/Bektas-Sari-3 <br>
+Academia: https://independent.academia.edu/bektassari <br>
 ---
 
 ## 📄 Lisans
